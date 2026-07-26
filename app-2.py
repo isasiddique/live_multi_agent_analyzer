@@ -84,4 +84,4 @@ else:
     st.success("Onyx Agent Status: Core model streams operating inside stable performance margins.")
 
 # Save a local tracking registry backup file
-df_stream.to_csv("agent_app_src/live_stream_audit_trail.csv", index=False)
+df_stream.to_csv("live_stream_audit_trail.csv", index=False)
